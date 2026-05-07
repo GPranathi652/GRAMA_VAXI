@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Animal Name" />
+
+    <EditText
+        android:id="@+id/etBreed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Breed" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAddAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Animal" />
+
+    <ListView
+        android:id="@+id/lvAnimals"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
